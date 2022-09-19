@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import DoctorSideNavBar from "../common/DoctorSideNavBar";
 
-const host = "https://virtualmedicine.stackroute.io";
+const host = "http://54.71.221.112:8083";
 function PatientHistory() {
   let [doctorsAppointment, setDoctorsAppointment] = useState([]);
   let id = 1;
