@@ -3,7 +3,7 @@ import axios from "axios";
 import DoctorSideNavBar from "../common/DoctorSideNavBar";
 import { Link } from "react-router-dom";
 
-let host = "https://virtualmedicine.stackroute.io";
+let host = "http://54.71.221.112:8083";
 
 function DoctorAppointment() {
   let [doctorsAppointment, setDoctorsAppointment] = useState([]);
