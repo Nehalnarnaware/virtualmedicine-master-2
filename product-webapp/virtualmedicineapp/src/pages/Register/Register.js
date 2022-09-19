@@ -4,7 +4,7 @@ import registerImg from '../../assets/register.jpg'
 import axios from 'axios';
 import { useNavigate,Link } from "react-router-dom";
 
-const host = 'https://54.71.221.112:8080';
+const host = 'http://54.71.221.112:8083';
 
 function Register() {
     const [formData, setformData] = useState({role:'patient',email:'',password:'',passwordConfirm:''});
