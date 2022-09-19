@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-const host = "https://virtualmedicine.stackroute.io";
+const host = "http://54.71.221.112:8083";
 
 function PatientAppointment() {
   let [doctorsAppointment, setDoctorsAppointment] = useState([]);
