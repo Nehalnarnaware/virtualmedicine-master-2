@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-const host = "http://54.71.221.112:8083";
+const host = "http://54.71.221.112:8080";
 
 function PatientAppointment() {
   let [doctorsAppointment, setDoctorsAppointment] = useState([]);
